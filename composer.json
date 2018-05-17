@@ -1,0 +1,14 @@
+{
+    "name": "timon/symfony-session-1",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Timon F",
+            "email": "dev@timonf.de"
+        }
+    ]
+}
