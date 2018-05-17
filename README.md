@@ -29,3 +29,9 @@ Documentation: http://bit.do/symfony-http-foundation (~ 10–20 minutes)
 * Install composer package “symfony/http-foundation”
 * Create a Request object (in front controller) and pass it to the “GreetController” action
 * Reading GET query parameter “name” instead of `$_GET['name']`
+
+### Task 2: Use our app as an API!
+
+* Create a „JsonResponse“ object and return it in your greet controller (instead of `echo`)
+* Let front controller render/convert the response object — tip: use `->send()`
+* Check in Chrome’s or Firefox’ debug tools, if Content-Type is “application/json”

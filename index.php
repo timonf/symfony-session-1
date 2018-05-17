@@ -8,4 +8,6 @@ include 'vendor/autoload.php';
 $request = Request::createFromGlobals();
 
 $controller = new GreetController();
-$controller->greet($request);
+$response = $controller->greet($request);
+
+$response->send();
