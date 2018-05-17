@@ -10,5 +10,8 @@
             "name": "Timon F",
             "email": "dev@timonf.de"
         }
-    ]
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.0"
+    }
 }

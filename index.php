@@ -1,9 +1,11 @@
 <?php
 
 use App\GreetController;
+use Symfony\Component\HttpFoundation\Request;
 
 include 'vendor/autoload.php';
 
-$controller = new GreetController();
+$request = Request::createFromGlobals();
 
-$controller->greet();
+$controller = new GreetController();
+$controller->greet($request);

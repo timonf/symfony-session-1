@@ -21,3 +21,11 @@ Learning fundamentals of today’s PHP applications.
   “php -S localhost:8020”
 * Let’s say “Hello $name” in a dedicated GreetController class
 * Autoload our GreetController into front controller
+
+### Task 1: Using a library!
+
+Documentation: http://bit.do/symfony-http-foundation (~ 10–20 minutes)
+
+* Install composer package “symfony/http-foundation”
+* Create a Request object (in front controller) and pass it to the “GreetController” action
+* Reading GET query parameter “name” instead of `$_GET['name']`
